@@ -39,7 +39,7 @@ def _stringify_records(
     return new_records
 
 
-def generate_dupes(  # noqa: C901
+def generate_dupes(
     people_remaining_rows: list[list[str]],
     people_selected_rows: list[list[str]],
     settings: Settings,
